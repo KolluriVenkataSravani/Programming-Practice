@@ -13,7 +13,7 @@ class Solution:
             for j in range(9):
                 val = board[i][j]
                 if val == '.':
-                    continue
+                    pass
                 if val in row[i]:
                     return False
                 row[i].add(val)
