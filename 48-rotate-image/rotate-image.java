@@ -1,5 +1,5 @@
 class Solution {
-    public int[][] rotate(int[][] matrix) {
+    public void rotate(int[][] matrix) {
         int n=matrix.length;
         for(int i=0;i<n;i++){
             for(int j=i;j<n;j++){
@@ -15,6 +15,5 @@ class Solution {
                 matrix[i][n-1-j]=temp;
             }
         }
-        return matrix;
     }
 }
